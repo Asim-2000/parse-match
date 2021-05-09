@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "parse-function": "^5.6.10",
     "parse-js": "^0.7.3"
   }
 }

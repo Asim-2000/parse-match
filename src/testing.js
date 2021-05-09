@@ -1,10 +1,9 @@
 module.exports = {
-    first: () => {
-    console.log('Hello1')
-  },
-
-  second : () => {
-    console.log('Hello2')
-  },
+     
+ fixtureFn : (a, b, c) => {
+  a = b + c;
+  return a + 2;
+}
+ 
 
 };

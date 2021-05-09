@@ -1,6 +1,25 @@
-const parse = require('parse-js');
-var test = require('./testing')
-var first = parse().bool().parse(test.first); // true
-// var second =  parse().match('Hello1').parse(test); // { atest: 'test123' }
+const parseFunction = require('parse-function');
+const test = require('./testing')
+const app = parseFunction(
+    {
+//   ecmaVersion: 2017,
+    }
+);
 
-console.log(first)
+const result = app.parse(test.fixtureFn);
+console.log(result);
+ 
+// see more
+console.log(result.name); // => null
+console.log(result.isNamed); // => false
+console.log(result.isArrow); // => true
+console.log(result.isAnonymous); // => true
+ 
+// array of names of the arguments
+console.log(result.args); // => ['a', 'b', 'c']
+ 
+// comma-separated names of the arguments
+console.log(result.params); // => 'a, b, c'
+
+
+console.log(result.value);
