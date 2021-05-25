@@ -2,7 +2,7 @@ var esprima = require('esprima');
 const fs = require("fs");
 const source = fs.readFileSync("./parsed.js", "utf8");
 
-tokenized = esprima.(source);
+tokenized = esprima.parseScript(source);
 console.log()
 
 fs.writeFile("parsedTest.js", JSON.stringify(tokenized), (err) => {
