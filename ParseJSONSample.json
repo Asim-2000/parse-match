@@ -1,0 +1,62 @@
+{
+    "functions" : [
+        {
+            "function" : "Function Name",
+            "inputs" : [
+                {
+                    "variableName" : "foo",
+                    "type" : "String",
+                    "value" : "ABC"
+                },
+                {
+                    "variableName" : "isActive",
+                    "type" : "Boolean",
+                    "value" : "False"
+                }
+            ],
+            "output" : {
+                "type" : "String",
+                "value" : "ABC"
+            }
+        },
+        {
+            "function" : "Function Name",
+            "inputs" : [
+                {
+                    "variableName" : "foo",
+                    "type" : "String",
+                    "value" : "ABC"
+                },
+                {
+                    "variableName" : "isActive",
+                    "type" : "Boolean",
+                    "value" : "False"
+                }
+            ],
+            "output" : {
+                "type" : "String",
+                "value" : "ABC"
+            }
+        },
+        {
+            "function" : "Function Name",
+            "inputs" : [
+                {
+                    "variableName" : "foo",
+                    "type" : "String",
+                    "value" : "ABC"
+                },
+                {
+                    "variableName" : "isActive",
+                    "type" : "Boolean",
+                    "value" : "False"
+                }
+            ],
+            "output" : {
+                "type" : "String",
+                "value" : "ABC"
+            }
+        }
+    ]
+    
+}
